@@ -1,0 +1,64 @@
+.logo {
+  width: 70px;
+  height: 31px;
+  float: left;
+  color: white;
+  font-size: x-large;
+}
+
+.header-user-actions {
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+
+.header-user-actions > span {
+  margin-right: 10px;
+  font-weight: 400;
+}
+
+.signup-form-button,
+.login-form-button {
+  width: 100%;
+}
+
+.signup-alert,
+.login-alert {
+  margin-bottom: 20px;
+}
+
+.dashboard-item {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  width: 160px;
+  box-sizing: border-box;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transition: all 0.2s;
+}
+
+.dashboard-item:hover {
+  background: #d9d9d9;
+}
+
+.dashboard-item:hover > .dashboard-item-content {
+  transform: scale(1.05);
+}
+.dashboard-item-content {
+  height: 100%;
+  padding: 20px;
+  transition: all 0.1s;
+}
+
+.dashboard-item-content > .icon {
+  font-size: x-large;
+  text-align: center;
+}
+
+.dashboard-item-content > .title {
+  font-size: normal;
+  font-weight: bold;
+  text-align: center;
+}
